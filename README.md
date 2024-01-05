@@ -1,8 +1,7 @@
 # Predictive Activity Monitoring via Wearable Sensors
-
-## Datathon 5, CHL5230, Dalla Lana School of Public Health
-
 ## Authors: Yiran Wang, Yutong Lu, Pourya Momtaz
+
+**Datathon 5, CHL5230, Dalla Lana School of Public Health**
 
 ## Introduction
 - Investigated using wearable sensor data to predict human activities via deep learning algorithms.
