@@ -1,5 +1,5 @@
 # Predictive Activity Monitoring via Wearable Sensors
-## Authors: Yiran Wang, Yutong Lu, Pourya Momtaz
+## Authors: Yutong Lu, Pourya Momtaz, Yiran Wang
 
 **Datathon 5, CHL5230, Dalla Lana School of Public Health**
 
