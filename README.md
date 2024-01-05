@@ -1,19 +1,38 @@
-# Datathon-5
+# Predictive Activity Monitoring via Wearable Sensors
 
-## Research Questions
+## Datathon 5, CHL5230, Dalla Lana School of Public Health
 
-- Forecasting: Can we use the sensor data to forecast future activities? For instance, based on the current sensor readings and past activities, could we predict what activity the person is likely to perform next? This would involve using time-series forecasting techniques, such as LSTM
-- Activity Recognition: Can we develop a model that can accurately predict the type of activity a person is performing based on their sensor data? 
-See what features contribute more to specific activities
-- Movement Pattern Analysis: Can we analyze the movement patterns of individuals and use this information to gain insights into their health and fitness levels?
-- Anomaly Detection: Can we use the sensor data to detect anomalies or unusual patterns that could indicate a health condition?
+## Authors: Yiran Wang, Yutong Lu, Pourya Momtaz
 
-## Steps
+## Introduction
+- Investigated using wearable sensor data to predict human activities via deep learning algorithms.
+- Aimed to find the best model for accurate activity prediction, crucial for healthcare monitoring and tailored interventions.
 
-### Data cleaning
-- Create the sequence for each person: move the observations of the same person to adjacent rows
-- Decide the sequence size to use
-- No feature selection needed
-- Check whether there are great jumps in the data/actions
-  
-### Build an LSTM model
+## Data Engineering Process
+- Utilized sequential sensor data from nine subjects, featuring activity labels and measurements from ankle and arm sensors.
+- Preprocessed data by organizing subjects' data, splitting into training and test sets, and generating sequences for LSTM modeling.
+
+## Analysis
+- Explored LSTM models with different architectures, learning rates, and regularization techniques.
+- Found that a learning rate of 0.001 achieved the best training accuracy, while the model struggled with imbalanced data.
+
+## Findings
+- Models performed well in predicting the majority class (Activity 0), indicating challenges with imbalanced data.
+- Attempted downsampling and regularization but faced difficulties capturing patterns across all activity classes effectively.
+
+## Conclusion
+- LSTM model showed good accuracy but struggled with imbalanced data, particularly predicting other activity classes besides the majority.
+Emphasized the need for robust strategies in handling imbalanced data for real-world healthcare applications.
+
+## Resources
+- [Presentation slides available](https://docs.google.com/presentation/d/1BpzwK1Uy8BAWsRNJvcCgQnRUCkHRGkVsnPbk_ptQbAY/edit#slide=id.g29d8a77b794_3_57)
+
+## References
+- Included references from studies on human activity recognition based on wearable sensor data.
+- For more comprehensive details, please refer to the full report available in the provided GitHub repository.
+
+
+
+
+
+
